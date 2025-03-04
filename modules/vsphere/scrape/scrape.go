@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
-
-	"github.com/khulnasoft/go.plugin/logger"
 	"github.com/vmware/govmomi/performance"
 	"github.com/vmware/govmomi/vim25/types"
+
+	"github.com/khulnasoft/go.plugin/logger"
+	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
 )
 
 type Client interface {

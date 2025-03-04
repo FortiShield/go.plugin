@@ -6,11 +6,11 @@ import (
 	"context"
 	"sync"
 
+	"gopkg.in/yaml.v2"
+
 	"github.com/khulnasoft/go.plugin/agent/confgroup"
 	"github.com/khulnasoft/go.plugin/agent/discovery/sd/pipeline"
 	"github.com/khulnasoft/go.plugin/logger"
-
-	"gopkg.in/yaml.v2"
 )
 
 func NewServiceDiscovery() (*ServiceDiscovery, error) {

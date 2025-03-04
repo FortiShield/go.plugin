@@ -5,9 +5,10 @@ package dnsquery
 import (
 	"errors"
 	"fmt"
-	"github.com/khulnasoft/go.plugin/agent/module"
 
 	"github.com/miekg/dns"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 func (d *DNSQuery) verifyConfig() error {

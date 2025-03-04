@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/blang/semver/v4"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/pkg/matcher"
 	"github.com/khulnasoft/go.plugin/pkg/prometheus"
 	"github.com/khulnasoft/go.plugin/pkg/web"
-
-	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 const (

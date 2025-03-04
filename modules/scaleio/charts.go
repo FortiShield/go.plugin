@@ -5,9 +5,8 @@ package scaleio
 import (
 	"fmt"
 
-	"github.com/khulnasoft/go.plugin/modules/scaleio/client"
-
 	"github.com/khulnasoft/go.plugin/agent/module"
+	"github.com/khulnasoft/go.plugin/modules/scaleio/client"
 )
 
 type (

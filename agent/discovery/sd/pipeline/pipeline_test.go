@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/confgroup"
-	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
-
 	"github.com/ilyam8/hashstructure"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
+
+	"github.com/khulnasoft/go.plugin/agent/confgroup"
+	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
 )
 
 func TestNew(t *testing.T) {

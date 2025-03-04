@@ -5,9 +5,9 @@ package sd
 import (
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/agent/discovery/sd/pipeline"
-
 	"gopkg.in/yaml.v2"
+
+	"github.com/khulnasoft/go.plugin/agent/discovery/sd/pipeline"
 )
 
 func TestServiceDiscovery_Run(t *testing.T) {

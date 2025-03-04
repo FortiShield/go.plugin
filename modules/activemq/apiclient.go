@@ -5,11 +5,12 @@ package activemq
 import (
 	"encoding/xml"
 	"fmt"
-	"github.com/khulnasoft/go.plugin/pkg/web"
 	"io"
 	"net/http"
 	"net/url"
 	"path"
+
+	"github.com/khulnasoft/go.plugin/pkg/web"
 )
 
 type topics struct {

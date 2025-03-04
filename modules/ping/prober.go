@@ -8,9 +8,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/logger"
-
 	probing "github.com/prometheus-community/pro-bing"
+
+	"github.com/khulnasoft/go.plugin/logger"
 )
 
 func newPingProber(conf pingProberConfig, log *logger.Logger) prober {

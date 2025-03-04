@@ -7,12 +7,12 @@ import (
 	_ "embed"
 	"time"
 
+	"github.com/blang/semver/v4"
+	"github.com/go-redis/redis/v8"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/pkg/tlscfg"
 	"github.com/khulnasoft/go.plugin/pkg/web"
-
-	"github.com/blang/semver/v4"
-	"github.com/go-redis/redis/v8"
 )
 
 //go:embed "config_schema.json"

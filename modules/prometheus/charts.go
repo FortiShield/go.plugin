@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/prometheus/prometheus/model/labels"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/pkg/prometheus"
-
-	"github.com/prometheus/prometheus/model/labels"
 )
 
 const (

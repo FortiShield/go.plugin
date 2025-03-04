@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	"github.com/coreos/go-systemd/v22/dbus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 func TestNew(t *testing.T) {

@@ -4,6 +4,7 @@ package example
 
 import (
 	"fmt"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 )
 

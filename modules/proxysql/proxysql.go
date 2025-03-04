@@ -5,9 +5,10 @@ package proxysql
 import (
 	"database/sql"
 	_ "embed"
-	_ "github.com/go-sql-driver/mysql"
 	"sync"
 	"time"
+
+	_ "github.com/go-sql-driver/mysql"
 
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/pkg/web"

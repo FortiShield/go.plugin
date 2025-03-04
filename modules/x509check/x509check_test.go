@@ -7,10 +7,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/pkg/tlscfg"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft/go.plugin/pkg/tlscfg"
 )
 
 func TestX509Check_Cleanup(t *testing.T) {

@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/confgroup"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
+
+	"github.com/khulnasoft/go.plugin/agent/confgroup"
 )
 
 type (

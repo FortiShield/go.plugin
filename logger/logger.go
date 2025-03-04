@@ -12,9 +12,9 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"github.com/khulnasoft/go.plugin/agent/executable"
-
 	"github.com/mattn/go-isatty"
+
+	"github.com/khulnasoft/go.plugin/agent/executable"
 )
 
 var isTerm = isatty.IsTerminal(os.Stderr.Fd())

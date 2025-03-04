@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/khulnasoft/go.plugin/logger"
-
 	"gopkg.in/yaml.v2"
+
+	"github.com/khulnasoft/go.plugin/logger"
 )
 
 var Disabled = false // TODO: remove after Khulnasoft v1.39.0. Fix for "from source" stable-channel installations.

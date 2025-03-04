@@ -8,10 +8,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/pkg/logs"
 	"github.com/khulnasoft/go.plugin/pkg/stm"
-
-	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 func (s SquidLog) logPanicStackIfAny() {

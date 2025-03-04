@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 type (

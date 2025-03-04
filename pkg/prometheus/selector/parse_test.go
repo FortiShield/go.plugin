@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/pkg/matcher"
-
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/khulnasoft/go.plugin/pkg/matcher"
 )
 
 func TestParse(t *testing.T) {

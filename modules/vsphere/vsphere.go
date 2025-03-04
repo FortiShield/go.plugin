@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/vmware/govmomi/performance"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/modules/vsphere/match"
 	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
 	"github.com/khulnasoft/go.plugin/pkg/web"
-
-	"github.com/vmware/govmomi/performance"
 )
 
 //go:embed "config_schema.json"

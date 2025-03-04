@@ -7,12 +7,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/pkg/prometheus/selector"
-
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/model/textparse"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft/go.plugin/pkg/prometheus/selector"
 )
 
 var (

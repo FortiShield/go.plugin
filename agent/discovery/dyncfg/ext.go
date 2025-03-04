@@ -5,9 +5,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/khulnasoft/go.plugin/agent/confgroup"
-
 	"gopkg.in/yaml.v2"
+
+	"github.com/khulnasoft/go.plugin/agent/confgroup"
 )
 
 func (d *Discovery) Register(cfg confgroup.Config) {

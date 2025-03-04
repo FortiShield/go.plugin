@@ -5,12 +5,13 @@ package openvpn
 import (
 	"testing"
 
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/modules/openvpn/client"
 	"github.com/khulnasoft/go.plugin/pkg/matcher"
 	"github.com/khulnasoft/go.plugin/pkg/socket"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 )
 
 var (

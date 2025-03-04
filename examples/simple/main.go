@@ -9,13 +9,13 @@ import (
 	"os"
 	"path"
 
+	"github.com/jessevdk/go-flags"
+
 	"github.com/khulnasoft/go.plugin/agent"
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/cli"
 	"github.com/khulnasoft/go.plugin/logger"
 	"github.com/khulnasoft/go.plugin/pkg/multipath"
-
-	"github.com/jessevdk/go-flags"
 )
 
 var version = "v0.0.1-example"

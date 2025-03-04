@@ -7,13 +7,11 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/mattn/go-isatty"
 	"k8s.io/client-go/kubernetes"
+	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
-
-	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
-
-	"github.com/mattn/go-isatty"
 )
 
 const (

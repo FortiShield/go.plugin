@@ -7,11 +7,11 @@ import (
 	_ "embed"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-	"github.com/khulnasoft/go.plugin/pkg/web"
-
 	"github.com/blang/semver/v4"
 	_ "github.com/jackc/pgx/v4/stdlib"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
+	"github.com/khulnasoft/go.plugin/pkg/web"
 )
 
 //go:embed "config_schema.json"

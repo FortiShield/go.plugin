@@ -9,9 +9,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/assert"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/agent/safewriter"
-	"github.com/stretchr/testify/assert"
 )
 
 // TODO: tech debt

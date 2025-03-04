@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 func TestWireGuard_Init(t *testing.T) {

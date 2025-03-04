@@ -7,11 +7,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/pkg/web"
-
-	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
+	"github.com/khulnasoft/go.plugin/pkg/web"
 )
 
 var (

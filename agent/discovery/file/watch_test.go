@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/assert"
+
 	"github.com/khulnasoft/go.plugin/agent/confgroup"
 	"github.com/khulnasoft/go.plugin/agent/module"
-
-	"github.com/stretchr/testify/assert"
 )
 
 func TestWatcher_String(t *testing.T) {

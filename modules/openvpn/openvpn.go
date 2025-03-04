@@ -6,12 +6,11 @@ import (
 	_ "embed"
 	"time"
 
+	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/modules/openvpn/client"
 	"github.com/khulnasoft/go.plugin/pkg/matcher"
 	"github.com/khulnasoft/go.plugin/pkg/socket"
 	"github.com/khulnasoft/go.plugin/pkg/web"
-
-	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 const (

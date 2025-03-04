@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	"github.com/gosnmp/gosnmp"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 const (

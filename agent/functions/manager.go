@@ -11,10 +11,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/khulnasoft/go.plugin/logger"
-
 	"github.com/mattn/go-isatty"
 	"github.com/muesli/cancelreader"
+
+	"github.com/khulnasoft/go.plugin/logger"
 )
 
 var isTerminal = isatty.IsTerminal(os.Stdout.Fd()) || isatty.IsTerminal(os.Stdin.Fd())

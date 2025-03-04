@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
-	"github.com/khulnasoft/go.plugin/logger"
-
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
+
+	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
+	"github.com/khulnasoft/go.plugin/logger"
 )
 
 type podTargetGroup struct {

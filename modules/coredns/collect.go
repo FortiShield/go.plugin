@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"github.com/blang/semver/v4"
+
 	"github.com/khulnasoft/go.plugin/pkg/prometheus"
 	"github.com/khulnasoft/go.plugin/pkg/stm"
 )

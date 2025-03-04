@@ -5,11 +5,11 @@ package file
 import (
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/agent/confgroup"
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft/go.plugin/agent/confgroup"
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 func TestParse(t *testing.T) {

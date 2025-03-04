@@ -10,8 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/pkg/socket"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/khulnasoft/go.plugin/pkg/socket"
 )
 
 var (

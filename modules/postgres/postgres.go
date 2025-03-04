@@ -8,13 +8,13 @@ import (
 	"sync"
 	"time"
 
+	"github.com/jackc/pgx/v4/stdlib"
+	_ "github.com/jackc/pgx/v4/stdlib"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/pkg/matcher"
 	"github.com/khulnasoft/go.plugin/pkg/metrics"
 	"github.com/khulnasoft/go.plugin/pkg/web"
-
-	"github.com/jackc/pgx/v4/stdlib"
-	_ "github.com/jackc/pgx/v4/stdlib"
 )
 
 //go:embed "config_schema.json"

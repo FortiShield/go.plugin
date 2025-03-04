@@ -5,12 +5,12 @@ package pipeline
 import (
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/agent/confgroup"
-	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
+
+	"github.com/khulnasoft/go.plugin/agent/confgroup"
+	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
 )
 
 func TestConfigComposer_compose(t *testing.T) {

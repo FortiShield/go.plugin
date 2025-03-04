@@ -15,10 +15,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ilyam8/hashstructure"
+
 	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
 	"github.com/khulnasoft/go.plugin/logger"
-
-	"github.com/ilyam8/hashstructure"
 )
 
 type netSocketTargetGroup struct {

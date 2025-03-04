@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/modules/vsphere/client"
-	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
-	"github.com/khulnasoft/go.plugin/pkg/tlscfg"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/vmware/govmomi/simulator"
+
+	"github.com/khulnasoft/go.plugin/modules/vsphere/client"
+	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
+	"github.com/khulnasoft/go.plugin/pkg/tlscfg"
 )
 
 func TestDiscoverer_Discover(t *testing.T) {

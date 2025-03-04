@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	"k8s.io/client-go/kubernetes"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 //go:embed "config_schema.json"

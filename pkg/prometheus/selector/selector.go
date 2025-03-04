@@ -3,9 +3,9 @@
 package selector
 
 import (
-	"github.com/khulnasoft/go.plugin/pkg/matcher"
-
 	"github.com/prometheus/prometheus/model/labels"
+
+	"github.com/khulnasoft/go.plugin/pkg/matcher"
 )
 
 type Selector interface {

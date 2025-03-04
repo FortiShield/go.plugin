@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/khulnasoft/go.plugin/agent/confgroup"
-
 	"gopkg.in/yaml.v2"
+
+	"github.com/khulnasoft/go.plugin/agent/confgroup"
 )
 
 type format int

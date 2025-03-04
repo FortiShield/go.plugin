@@ -8,10 +8,10 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/ilyam8/hashstructure"
+
 	"github.com/khulnasoft/go.plugin/agent/hostinfo"
 	"github.com/khulnasoft/go.plugin/agent/module"
-
-	"github.com/ilyam8/hashstructure"
 )
 
 type Group struct {

@@ -6,10 +6,10 @@ import (
 	_ "embed"
 	"time"
 
+	"github.com/miekg/dns"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/pkg/web"
-
-	"github.com/miekg/dns"
 )
 
 //go:embed "config_schema.json"

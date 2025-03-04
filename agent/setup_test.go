@@ -5,11 +5,11 @@ package agent
 import (
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 func TestConfig_UnmarshalYAML(t *testing.T) {

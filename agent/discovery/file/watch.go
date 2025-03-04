@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/fsnotify/fsnotify"
+
 	"github.com/khulnasoft/go.plugin/agent/confgroup"
 	"github.com/khulnasoft/go.plugin/logger"
-
-	"github.com/fsnotify/fsnotify"
 )
 
 type (

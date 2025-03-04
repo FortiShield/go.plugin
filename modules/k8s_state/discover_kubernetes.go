@@ -8,8 +8,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/logger"
-
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
@@ -17,6 +15,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
+
+	"github.com/khulnasoft/go.plugin/logger"
 )
 
 func newKubeDiscovery(client kubernetes.Interface, l *logger.Logger) *kubeDiscovery {

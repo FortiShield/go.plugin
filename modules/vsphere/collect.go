@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
-
 	"github.com/vmware/govmomi/performance"
+
+	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
 )
 
 // ManagedEntityStatus

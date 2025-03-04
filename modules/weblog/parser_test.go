@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/pkg/logs"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft/go.plugin/pkg/logs"
 )
 
 func TestWebLog_guessParser(t *testing.T) {

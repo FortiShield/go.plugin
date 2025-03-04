@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	"github.com/vmware/govmomi/simulator"
+
 	"github.com/khulnasoft/go.plugin/modules/vsphere/client"
 	"github.com/khulnasoft/go.plugin/modules/vsphere/discover"
 	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
 	"github.com/khulnasoft/go.plugin/pkg/tlscfg"
-
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-	"github.com/vmware/govmomi/simulator"
 )
 
 func TestNew(t *testing.T) {

@@ -11,16 +11,15 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/jessevdk/go-flags"
+	"golang.org/x/net/http/httpproxy"
+
 	"github.com/khulnasoft/go.plugin/agent"
 	"github.com/khulnasoft/go.plugin/agent/executable"
 	"github.com/khulnasoft/go.plugin/cli"
 	"github.com/khulnasoft/go.plugin/logger"
-	"github.com/khulnasoft/go.plugin/pkg/multipath"
-
-	"github.com/jessevdk/go-flags"
-	"golang.org/x/net/http/httpproxy"
-
 	_ "github.com/khulnasoft/go.plugin/modules"
+	"github.com/khulnasoft/go.plugin/pkg/multipath"
 )
 
 var (

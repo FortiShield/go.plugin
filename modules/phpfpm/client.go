@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/pkg/web"
-
 	fcgiclient "github.com/tomasen/fcgi_client"
+
+	"github.com/khulnasoft/go.plugin/pkg/web"
 )
 
 type (

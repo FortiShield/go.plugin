@@ -5,9 +5,9 @@ package filestatus
 import (
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/agent/confgroup"
-
 	"github.com/stretchr/testify/assert"
+
+	"github.com/khulnasoft/go.plugin/agent/confgroup"
 )
 
 // TODO: tech debt

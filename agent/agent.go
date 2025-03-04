@@ -12,6 +12,8 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/mattn/go-isatty"
+
 	"github.com/khulnasoft/go.plugin/agent/confgroup"
 	"github.com/khulnasoft/go.plugin/agent/discovery"
 	"github.com/khulnasoft/go.plugin/agent/filelock"
@@ -24,8 +26,6 @@ import (
 	"github.com/khulnasoft/go.plugin/agent/vnodes"
 	"github.com/khulnasoft/go.plugin/logger"
 	"github.com/khulnasoft/go.plugin/pkg/multipath"
-
-	"github.com/mattn/go-isatty"
 )
 
 var isTerminal = isatty.IsTerminal(os.Stdout.Fd())

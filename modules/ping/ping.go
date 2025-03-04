@@ -6,11 +6,11 @@ import (
 	_ "embed"
 	"time"
 
+	probing "github.com/prometheus-community/pro-bing"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/logger"
 	"github.com/khulnasoft/go.plugin/pkg/web"
-
-	probing "github.com/prometheus-community/pro-bing"
 )
 
 //go:embed "config_schema.json"

@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/modules/vsphere/discover"
-	"github.com/khulnasoft/go.plugin/modules/vsphere/match"
-	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
-
-	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/vmware/govmomi/performance"
 	"github.com/vmware/govmomi/simulator"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
+	"github.com/khulnasoft/go.plugin/modules/vsphere/discover"
+	"github.com/khulnasoft/go.plugin/modules/vsphere/match"
+	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
 )
 
 func TestNew(t *testing.T) {

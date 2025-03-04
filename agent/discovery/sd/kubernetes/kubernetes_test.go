@@ -7,15 +7,15 @@ import (
 	"os"
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
-	"github.com/khulnasoft/go.plugin/pkg/k8sclient"
-
 	"github.com/stretchr/testify/assert"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
+
+	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
+	"github.com/khulnasoft/go.plugin/pkg/k8sclient"
 )
 
 var discoveryTags model.Tags = map[string]struct{}{"k8s": {}}

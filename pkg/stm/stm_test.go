@@ -5,11 +5,10 @@ package stm_test
 import (
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/pkg/stm"
+	"github.com/stretchr/testify/assert"
 
 	"github.com/khulnasoft/go.plugin/pkg/metrics"
-
-	"github.com/stretchr/testify/assert"
+	"github.com/khulnasoft/go.plugin/pkg/stm"
 )
 
 func TestToMap_empty(t *testing.T) {

@@ -5,8 +5,9 @@ package zookeeper
 import (
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/pkg/socket"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/khulnasoft/go.plugin/pkg/socket"
 )
 
 func Test_clientFetch(t *testing.T) {

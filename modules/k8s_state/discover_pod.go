@@ -5,10 +5,10 @@ package k8s_state
 import (
 	"context"
 
-	"github.com/khulnasoft/go.plugin/logger"
-
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
+
+	"github.com/khulnasoft/go.plugin/logger"
 )
 
 func newPodDiscoverer(si cache.SharedInformer, l *logger.Logger) *podDiscoverer {

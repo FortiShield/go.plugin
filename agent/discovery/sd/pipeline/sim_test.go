@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/confgroup"
-	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
-	"github.com/khulnasoft/go.plugin/logger"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
+
+	"github.com/khulnasoft/go.plugin/agent/confgroup"
+	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
+	"github.com/khulnasoft/go.plugin/logger"
 )
 
 type discoverySim struct {

@@ -4,6 +4,7 @@ package metrics
 
 import (
 	"github.com/axiomhq/hyperloglog"
+
 	"github.com/khulnasoft/go.plugin/pkg/stm"
 )
 

@@ -6,10 +6,10 @@ import (
 	"sort"
 	"time"
 
-	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
-
 	"github.com/vmware/govmomi/performance"
 	"github.com/vmware/govmomi/vim25/types"
+
+	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
 )
 
 func (d Discoverer) collectMetricLists(res *rs.Resources) error {

@@ -12,11 +12,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/pkg/matcher"
-
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft/go.plugin/pkg/matcher"
 )
 
 var (

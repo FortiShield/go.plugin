@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
+	"gopkg.in/yaml.v2"
+
 	"github.com/khulnasoft/go.plugin/agent/confgroup"
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/logger"
-
-	"gopkg.in/yaml.v2"
 )
 
 type Job interface {

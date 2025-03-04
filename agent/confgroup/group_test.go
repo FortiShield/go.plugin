@@ -5,9 +5,9 @@ package confgroup
 import (
 	"testing"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	"github.com/stretchr/testify/assert"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 func TestConfig_Name(t *testing.T) {

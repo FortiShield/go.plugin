@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/pkg/web"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft/go.plugin/pkg/web"
 )
 
 func TestHTTPCheck_Init(t *testing.T) {

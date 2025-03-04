@@ -7,6 +7,8 @@ import (
 	"os"
 	"strings"
 
+	"gopkg.in/yaml.v2"
+
 	"github.com/khulnasoft/go.plugin/agent/confgroup"
 	"github.com/khulnasoft/go.plugin/agent/discovery"
 	"github.com/khulnasoft/go.plugin/agent/discovery/dummy"
@@ -14,8 +16,6 @@ import (
 	"github.com/khulnasoft/go.plugin/agent/hostinfo"
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/agent/vnodes"
-
-	"gopkg.in/yaml.v2"
 )
 
 func (a *Agent) loadPluginConfig() config {

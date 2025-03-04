@@ -7,11 +7,11 @@ import (
 	_ "embed"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-	"github.com/khulnasoft/go.plugin/pkg/web"
-
 	"github.com/docker/docker/api/types"
 	docker "github.com/docker/docker/client"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
+	"github.com/khulnasoft/go.plugin/pkg/web"
 )
 
 //go:embed "config_schema.json"

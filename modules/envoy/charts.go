@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	"github.com/prometheus/prometheus/model/labels"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 const (

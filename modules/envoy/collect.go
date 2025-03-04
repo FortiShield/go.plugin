@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/khulnasoft/go.plugin/pkg/prometheus"
-
 	"github.com/prometheus/prometheus/model/labels"
+
+	"github.com/khulnasoft/go.plugin/pkg/prometheus"
 )
 
 // Server stats: https://www.envoyproxy.io/docs/envoy/latest/configuration/observability/statistics#

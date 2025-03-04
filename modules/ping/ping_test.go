@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/logger"
-
 	probing "github.com/prometheus-community/pro-bing"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft/go.plugin/logger"
 )
 
 func TestPing_Init(t *testing.T) {

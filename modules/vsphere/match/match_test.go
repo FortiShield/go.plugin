@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/stretchr/testify/assert"
+
 	"github.com/khulnasoft/go.plugin/modules/vsphere/resources"
 	"github.com/khulnasoft/go.plugin/pkg/matcher"
-
-	"github.com/stretchr/testify/assert"
 )
 
 var (

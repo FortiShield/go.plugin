@@ -5,10 +5,10 @@ package redis
 import (
 	"errors"
 
+	"github.com/go-redis/redis/v8"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/pkg/tlscfg"
-
-	"github.com/go-redis/redis/v8"
 )
 
 func (r *Redis) validateConfig() error {

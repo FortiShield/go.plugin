@@ -11,9 +11,10 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/gosnmp/gosnmp"
 	snmpmock "github.com/gosnmp/gosnmp/mocks"
-	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 func TestNew(t *testing.T) {

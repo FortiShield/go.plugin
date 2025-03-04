@@ -6,10 +6,10 @@ import (
 	_ "embed"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	"golang.zx2c4.com/wireguard/wgctrl"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 //go:embed "config_schema.json"

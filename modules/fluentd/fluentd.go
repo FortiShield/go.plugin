@@ -7,10 +7,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/pkg/matcher"
 	"github.com/khulnasoft/go.plugin/pkg/web"
-
-	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 //go:embed "config_schema.json"

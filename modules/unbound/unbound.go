@@ -6,11 +6,10 @@ import (
 	_ "embed"
 	"time"
 
+	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/pkg/socket"
 	"github.com/khulnasoft/go.plugin/pkg/tlscfg"
 	"github.com/khulnasoft/go.plugin/pkg/web"
-
-	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 //go:embed "config_schema.json"

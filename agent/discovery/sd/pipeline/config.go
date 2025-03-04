@@ -5,8 +5,8 @@ package pipeline
 import (
 	"errors"
 	"fmt"
-	"github.com/khulnasoft/go.plugin/agent/discovery/sd/hostsocket"
 
+	"github.com/khulnasoft/go.plugin/agent/discovery/sd/hostsocket"
 	"github.com/khulnasoft/go.plugin/agent/discovery/sd/kubernetes"
 )
 

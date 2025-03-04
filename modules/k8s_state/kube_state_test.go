@@ -10,8 +10,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	corev1 "k8s.io/api/core/v1"
@@ -21,6 +19,8 @@ import (
 	"k8s.io/client-go/discovery"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 func TestNew(t *testing.T) {

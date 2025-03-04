@@ -4,8 +4,9 @@ package cassandra
 
 import (
 	"errors"
-	"github.com/khulnasoft/go.plugin/pkg/prometheus"
 	"strings"
+
+	"github.com/khulnasoft/go.plugin/pkg/prometheus"
 )
 
 const (

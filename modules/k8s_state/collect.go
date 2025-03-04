@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/module"
-
 	corev1 "k8s.io/api/core/v1"
+
+	"github.com/khulnasoft/go.plugin/agent/module"
 )
 
 const precision = 1000

@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/stretchr/testify/assert"
+
 	"github.com/khulnasoft/go.plugin/agent/confgroup"
 	"github.com/khulnasoft/go.plugin/agent/discovery/sd/pipeline"
 	"github.com/khulnasoft/go.plugin/logger"
-
-	"github.com/stretchr/testify/assert"
 )
 
 var lock = &sync.Mutex{}

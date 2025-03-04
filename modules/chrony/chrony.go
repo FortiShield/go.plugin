@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/facebook/time/ntp/chrony"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 	"github.com/khulnasoft/go.plugin/pkg/web"
 )

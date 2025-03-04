@@ -6,11 +6,11 @@ import (
 	"bytes"
 	"text/template"
 
+	"gopkg.in/yaml.v2"
+
 	"github.com/khulnasoft/go.plugin/agent/confgroup"
 	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
 	"github.com/khulnasoft/go.plugin/logger"
-
-	"gopkg.in/yaml.v2"
 )
 
 func newConfigComposer(cfg []ComposeRuleConfig) (*configComposer, error) {

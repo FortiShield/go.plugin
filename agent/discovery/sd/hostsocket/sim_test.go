@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
 )
 
 type discoverySim struct {

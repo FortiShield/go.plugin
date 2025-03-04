@@ -4,6 +4,7 @@ package example
 
 import (
 	"errors"
+
 	"github.com/khulnasoft/go.plugin/agent/module"
 )
 

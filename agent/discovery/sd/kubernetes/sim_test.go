@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
-
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"k8s.io/client-go/tools/cache"
+
+	"github.com/khulnasoft/go.plugin/agent/discovery/sd/model"
 )
 
 const (

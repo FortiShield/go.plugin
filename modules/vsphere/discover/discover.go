@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/khulnasoft/go.plugin/modules/vsphere/match"
-	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
-
-	"github.com/khulnasoft/go.plugin/logger"
 	"github.com/vmware/govmomi/vim25/mo"
 	"github.com/vmware/govmomi/vim25/types"
+
+	"github.com/khulnasoft/go.plugin/logger"
+	"github.com/khulnasoft/go.plugin/modules/vsphere/match"
+	rs "github.com/khulnasoft/go.plugin/modules/vsphere/resources"
 )
 
 type Client interface {

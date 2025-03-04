@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/khulnasoft/go.plugin/pkg/prometheus/selector"
-
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/model/textparse"
+
+	"github.com/khulnasoft/go.plugin/pkg/prometheus/selector"
 )
 
 const (
